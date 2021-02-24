@@ -1,0 +1,55 @@
+li a{
+  color: black;
+}
+li a:hover{
+  color: red;
+}
+li a:active{
+  color: yellow;
+}
+/* li a:visited{
+  color: aqua;
+} */
+.content{
+  color: salmon;
+}
+/* .content::after{
+  content: "'";
+  color: yellow;
+  font-size: 40px;
+}
+.content::before{
+  content: "'";
+  color: blue;
+  font-size: 40px;
+} */
+.content::first-line{
+  color: green;
+  /* font-size: 60px; */
+}
+.photo{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: relative;
+}
+.photo::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: springgreen;
+  top: 50px;
+  left: 50px;
+  position: absolute;
+}
+.photo::before{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  top: 30px;
+  left: 30px;
+  position: absolute;
+}

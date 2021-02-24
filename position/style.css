@@ -1,0 +1,50 @@
+.box1, .box2, .box3, .box4{
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
+  line-height: 100px;
+  text-align: center;
+}
+.container{
+  width: 650px;
+  height: 600px;
+  border: 5px solid black;
+  margin: 10px auto 10px auto;
+  position: relative;
+}
+
+.box1{
+  position: relative;
+  top: 50px;
+  right: -30px;
+  /* top bottom left right */
+  background-color: yellow;
+}
+.box2{
+  background-color: blue;
+  position:absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.box3{
+  background-color: green;
+  position: sticky;
+  top: 20px;
+  bottom: 10px;
+}
+.box4{
+  background-color:red;
+  position: fixed;
+  /* top: 50px; */
+  left: 20px;
+  bottom: 20px;
+  right: 20px;
+  top: 20px;
+}
+/* body{
+  border: 1px solid red;
+}
+html{
+  border: 1px solid green;
+  margin-left: 5px;
+} */
